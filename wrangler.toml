@@ -1,0 +1,7 @@
+name = "telegram-bot-proxy"
+main = "src/index.js"
+compatibility_date = "2026-06-13"
+
+# 环境变量（仅本地开发用，生产环境建议在 Dashboard 中设置）
+[vars]
+ALLOWED_TOKENS = "your_token_1,your_token_2"
